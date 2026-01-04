@@ -25,3 +25,16 @@ dist/
 .vscode/
 .idea/
 .DS_Store
+
+
+# Dependency directories
+node_modules/
+
+# Sensitive API Keys & Config
+.env
+config.json
+*.log
+
+# System files
+.DS_Store
+Termux-backup/
