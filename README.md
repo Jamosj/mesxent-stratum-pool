@@ -12,7 +12,7 @@ Mesxent Global Stratum is a high-performance, policy-driven mining pool engine d
 * **Agro-Node Connectivity:** Direct link to Mesxent physical asset nodes.
 
 ## Quick Start
-1. Clone the repository: `git clone https://github.com/[YOUR_USERNAME]/mesxent-stratum-pool.git`
+1. Clone the repository: `git clone https://github.com/jamosj/mesxent-stratum-pool.git`
 2. Install dependencies: `npm install`
 3. Configure your keys in `.env` (Use `config_example.json` as a template).
 4. Launch the engine: `node init.js`
