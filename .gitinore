@@ -38,3 +38,19 @@ config.json
 # System files
 .DS_Store
 Termux-backup/
+
+# --- MESXENT GLOBAL CUSTOM IGNORES ---
+# Private API Tokens & Node Keys
+.env
+auth_keys/
+bitnode_key.txt
+*.token
+
+# Pool Configuration with real keys
+config.json
+!config_example.json
+
+# Mining Logs & Statistics
+/logs
+*.log
+stats_cache/
